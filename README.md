@@ -1,4 +1,4 @@
-# VEICULOS GEEK
+# Car Business (Alura-Geek)
 
 ## 💻 Projeto desenvolvido durante o curso de formação Front-End da Alura - Challenge Alura Geek
 
