@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veiculos-Geek</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Os melhores veículos para negociação você encontra aqui!">
+    <link rel="shortcut icon" href="img/car_icon_145832.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="servOtto">
+        <div class="container">
+            <nav>
+                <div>
+                    <a href="index.html"><img class="img-menu" src="./img/logo.png" alt="logo"></a>
+                </div>
+                <div class="menu-itens">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="/">SOBRE</a></li>
+                        <li><a href="/">SERVIÇOS</a></li>
+                        <li><a class="contato" href="/">CONTATO</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <section class="banner">
+            <div class="container">
+                <div class="banner-text-serv">
+                    <h1>Veículos para Negociação</h1>
+                </div>
+                <div class="container">
+                    <h2 class="subtitle">Os melhores veículos você encontra aqui!</h2>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="geral">
+        <section class="servicos">
+            <div class="poster" data-lista>
+                <!-- Exemplo de estrutura de um card de veículo -->
+                <!--
+                <div class="post">
+                    <div class="post-item">
+                        <img src="https://www.webmotors.com.br/wp-content/uploads/2023/12/15151459/Chevrolet-Onix-LT-1.0-3.webp" alt="Chevrolet Onix 2023 Prata 1.0">
+                        <p class="venda"><strong>Onix 2023 Prata 1.0</strong></p>
+                        <p class="descricao-venda">R$52.500</p>
+                        <a class="saibaMais"><button>Excluir item</button></a>
+                    </div>
+                </div>
+                -->
+            </div>
+        </section>
+
+        <section class="insert-area">
+            <form class="form-area" data-formulario>
+                <div class="form-area-text">
+                    <h3>Adicionar Veículo em Estoque</h3>
+                </div>
+                <div class="form-area-input">
+                    <div class="input">
+                        <label for="nomeVeículo">Informações do Veículo</label>
+                        <input type="text" id="nomeVeículo" name="nomeVeículo" placeholder="Por exemplo: Fox 1.6 Prata 2020" required data-name>
+                    </div>
+                    <div class="input">
+                        <label for="valor">Valor</label>
+                        <input type="text" id="valor" name="valor" placeholder="Por exemplo: R$ 52.500,00" required data-valor>
+                    </div>
+                    <div class="input">
+                        <label for="imagem">Imagem</label>
+                        <input type="text" id="imagem" name="imagem" placeholder="Insira a url da imagem" required data-urlImg>
+                    </div>
+                    <div class="botoes_form">
+                        <div class="enviar">
+                            <input type="submit" value="Enviar">
+                        </div>
+                        <div class="limpar">
+                            <button type="reset">Limpar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-area">
+                <div class="logo-footer">
+                    <a href="index.html"><img src="img/logo.png" alt="Logotipo Veículos-Geek"></a>
+                </div>
+                <div class="footer-ul">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="/">SOBRE</a></li>
+                        <li><a href="/">SERVIÇOS</a></li>
+                        <li><a class="contato2" href="/">CONTATO</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-endereco">
+                <h2>Veículos-Geek</h2>
+            </div>
+        </div>
+    </footer>
+
+    <div class="bar">
+        <div class="bar-area">
+            <div class="direitos">
+                <h4>© TODOS OS DIREITOS RESERVADOS.</h4>
+            </div>
+            <div class="leonardo">
+                <h3>Desenvolvido por: LEONARDO LARANJA</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
