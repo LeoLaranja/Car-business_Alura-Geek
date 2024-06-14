@@ -4,7 +4,7 @@
 
 ## Descrição:
 
-  O projeto Veículos-Geek é um site dedicado à listagem e negociação de veículos. Os usuários podem visualizar informações sobre veículos disponíveis, adicionar e excluir novos veículos ao estoque .
+  O projeto Car Business é um site dedicado à listagem e negociação de veículos. Os usuários podem visualizar informações sobre veículos disponíveis, adicionar e excluir novos veículos ao estoque .
 
 ## Recursos:
 
